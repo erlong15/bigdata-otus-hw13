@@ -1,0 +1,112 @@
+18/02/27 19:12:35 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.3-hadoop2
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.8.2.jar] /tmp/streamjob6043255865895631047.jar tmpDir=null
+18/02/27 19:12:36 INFO client.RMProxy: Connecting to ResourceManager at hadoop-cluster-m/10.154.0.4:8032
+18/02/27 19:12:37 INFO client.RMProxy: Connecting to ResourceManager at hadoop-cluster-m/10.154.0.4:8032
+18/02/27 19:12:37 WARN hdfs.DataStreamer: Caught exception
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at org.apache.hadoop.hdfs.DataStreamer.closeResponder(DataStreamer.java:973)
+	at org.apache.hadoop.hdfs.DataStreamer.endBlock(DataStreamer.java:624)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:801)
+18/02/27 19:12:37 WARN hdfs.DataStreamer: Caught exception
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at org.apache.hadoop.hdfs.DataStreamer.closeResponder(DataStreamer.java:973)
+	at org.apache.hadoop.hdfs.DataStreamer.endBlock(DataStreamer.java:624)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:801)
+18/02/27 19:12:37 WARN hdfs.DataStreamer: Caught exception
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at org.apache.hadoop.hdfs.DataStreamer.closeResponder(DataStreamer.java:973)
+	at org.apache.hadoop.hdfs.DataStreamer.endBlock(DataStreamer.java:624)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:801)
+18/02/27 19:12:37 INFO mapred.FileInputFormat: Total input files to process : 3
+18/02/27 19:12:37 INFO mapreduce.JobSubmitter: number of splits:25
+18/02/27 19:12:37 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1519741960202_0015
+18/02/27 19:12:38 INFO impl.YarnClientImpl: Submitted application application_1519741960202_0015
+18/02/27 19:12:38 INFO mapreduce.Job: The url to track the job: http://hadoop-cluster-m:8088/proxy/application_1519741960202_0015/
+18/02/27 19:12:38 INFO mapreduce.Job: Running job: job_1519741960202_0015
+18/02/27 19:12:47 INFO mapreduce.Job: Job job_1519741960202_0015 running in uber mode : false
+18/02/27 19:12:47 INFO mapreduce.Job:  map 0% reduce 0%
+18/02/27 19:13:00 INFO mapreduce.Job:  map 8% reduce 0%
+18/02/27 19:13:04 INFO mapreduce.Job:  map 20% reduce 0%
+18/02/27 19:13:05 INFO mapreduce.Job:  map 32% reduce 0%
+18/02/27 19:13:12 INFO mapreduce.Job:  map 40% reduce 0%
+18/02/27 19:13:19 INFO mapreduce.Job:  map 44% reduce 0%
+18/02/27 19:13:20 INFO mapreduce.Job:  map 56% reduce 0%
+18/02/27 19:13:21 INFO mapreduce.Job:  map 64% reduce 0%
+18/02/27 19:13:22 INFO mapreduce.Job:  map 68% reduce 0%
+18/02/27 19:13:24 INFO mapreduce.Job:  map 72% reduce 0%
+18/02/27 19:13:29 INFO mapreduce.Job:  map 76% reduce 0%
+18/02/27 19:13:35 INFO mapreduce.Job:  map 80% reduce 0%
+18/02/27 19:13:36 INFO mapreduce.Job:  map 84% reduce 0%
+18/02/27 19:13:37 INFO mapreduce.Job:  map 100% reduce 0%
+18/02/27 19:13:44 INFO mapreduce.Job:  map 100% reduce 67%
+18/02/27 19:13:45 INFO mapreduce.Job:  map 100% reduce 100%
+18/02/27 19:13:45 INFO mapreduce.Job: Job job_1519741960202_0015 completed successfully
+18/02/27 19:13:45 INFO mapreduce.Job: Counters: 52
+	File System Counters
+		FILE: Number of bytes read=3096581
+		FILE: Number of bytes written=10320948
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=239537
+		HDFS: Number of bytes written=1704737
+		HDFS: Number of read operations=90
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=9
+	Job Counters 
+		Killed map tasks=1
+		Killed reduce tasks=1
+		Launched map tasks=25
+		Launched reduce tasks=3
+		Data-local map tasks=24
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=1325536
+		Total time spent by all reduces in occupied slots (ms)=125856
+		Total time spent by all map tasks (ms)=331384
+		Total time spent by all reduce tasks (ms)=15732
+		Total vcore-milliseconds taken by all map tasks=331384
+		Total vcore-milliseconds taken by all reduce tasks=15732
+		Total megabyte-milliseconds taken by all map tasks=339337216
+		Total megabyte-milliseconds taken by all reduce tasks=32219136
+	Map-Reduce Framework
+		Map input records=3599
+		Map output records=206323
+		Map output bytes=2683917
+		Map output materialized bytes=3097013
+		Input split bytes=2775
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=121659
+		Reduce shuffle bytes=3097013
+		Reduce input records=206323
+		Reduce output records=121659
+		Spilled Records=412646
+		Shuffled Maps =75
+		Failed Shuffles=0
+		Merged Map outputs=75
+		GC time elapsed (ms)=6350
+		CPU time spent (ms)=21090
+		Physical memory (bytes) snapshot=10065608704
+		Virtual memory (bytes) snapshot=73931591680
+		Total committed heap usage (bytes)=8358825984
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=236762
+	File Output Format Counters 
+		Bytes Written=1704737
+18/02/27 19:13:45 INFO streaming.StreamJob: Output directory: /user/alice_data/text_reduce
